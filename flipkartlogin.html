@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body1{
+            height:567px;
+            justify-content: center;
+            background-color: blue;
+        }
+        .container{
+            height:300px;
+            width:300px;
+            border:2px solid gainsboro;
+            background-color:white;
+            justify-content: center;
+            padding:20px 10px;
+            margin:10px 500px;
+        }
+        .button{
+            background-color:lightblue;
+            height:40px;
+            width:300px;
+            border-radius: 5px;
+        }
+        .newaccount{
+            padding:10px 25px;
+        }
+    </style>
+</head>
+<body> 
+    <section class="body1">
+    <div class="container">
+    <label for="email">Email or Mobile</label>  <br>            
+    <input type="Email" placeholder="Enter Email or Mobile No">
+    <br><br>
+    <label for="password">Password </label><br>
+    <input type="password" placeholder="Enter Password" pattern="[A-Z]{1}[a-z]{2}[0-9]{3}[@,#,$,&,*]{1}" title="the password should contain atmost one uppercase letter ,two lowercase letters, three digit's and one special characters(@,#,$,&,*) ">
+    <br><br>
+    <input type="checkbox">Remember Me
+    <br><br><br>
+    <a href="">Forgot Password</a>
+    <br><br><br>
+    <input type="button" value="Login" class="button">
+    <br><br>
+    <a href="flipkartsignup.html" class="newaccount">New to Flipkart</a>
+    <a href="flipkartsignup.html">Creat an Account</a>
+</div>
+</section>
+</body>
+</html>
